@@ -1,0 +1,21 @@
+.img{}
+
+
+
+#img1{
+    width: 7%;
+    height: 80px;
+    border-radius: 100%;
+    position: relative;
+    top :250px;
+    right: 40px;
+    border: 2px solid #000000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+#Hthree1{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:375px;
+    right:30px
+
+}
