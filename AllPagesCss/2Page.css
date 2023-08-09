@@ -1,0 +1,69 @@
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+
+
+
+.img1{
+    width: 7%;
+    height: 80px;
+    border-radius: 100%;
+    position: relative;
+    top :250px;
+    right: 40px;
+    border: 2px solid #000000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+#Hthree1{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:510px;
+    right:200px
+
+}
+#H11{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:375px;
+    right:200px
+
+
+}
+#h12{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:470px;
+    right:90px
+
+}
+#h13{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:430px;
+    right:-130px
+   
+}
+#h14{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:393px;
+    right:-10px;
+}
+#mim{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    position: relative;
+    top:-60px;
+    right: 40px;
+    }

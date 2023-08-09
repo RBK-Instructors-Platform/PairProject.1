@@ -1,0 +1,25 @@
+
+#btn0{
+    background-color: #FF66C4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 80px;
+    position: relative;
+    bottom: -350px;
+    right: 310px;
+    cursor: pointer;
+
+  }
+  #img0{
+    width: 40%;
+    height: 70px;
+    position: relative;
+    bottom: -270px;
+    right: -50px;
+    
+  }
