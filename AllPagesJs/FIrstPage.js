@@ -1,6 +1,4 @@
-$("#btn0").on('click',function(){
-    window.location.href='/AllPagesHtml/2Page.html'
-})
+
 
 $("#btn0").on({
     mouseenter: function () {
@@ -11,3 +9,6 @@ $("#btn0").on({
     }
 });
 
+$("#btn0").on('click',function(){
+    window.location.href='../AllPagesHtml/2Page.html'
+})
