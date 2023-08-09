@@ -1,6 +1,3 @@
-$("#btn0").on('click',function(){
-    window.location.href='http://127.0.0.1:5500/PairProject.1/AllPagesHtml/2Page.html'
-})
 
 $("#btn0").on({
     mouseenter: function () {
@@ -11,3 +8,6 @@ $("#btn0").on({
     }
 });
 
+$("#btn0").on('click',function(){
+    window.location.href='../AllPagesHtml/2Page.html'
+})
