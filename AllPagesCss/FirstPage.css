@@ -13,8 +13,15 @@
     bottom: -350px;
     right: 310px;
     cursor: pointer;
+    box-shadow: 6px 6px 29px -4px black
 
   }
+#btn:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
   #img0{
     width: 40%;
     height: 70px;
@@ -23,7 +30,4 @@
     right: -50px;
     
   }
-
-  #btn0{
-
-  }
+ 
