@@ -59,23 +59,24 @@
     border-radius: 100%;
     position: relative;
     top :250px;
-    right: 40px;
+    right: 50px;
     border: 2px solid #000000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     overflow: hidden;
     cursor: pointer;
-
+}
 #img2{
     width: 7%;
     height: 80px;
     border-radius: 100%;
     position: relative;
     top :250px;
-    right: 40px;
+    right: 35px;
     border: 2px solid #000000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     overflow: hidden;
     cursor: pointer;
+}
 
 #img3{
     width: 7%;
@@ -83,44 +84,94 @@
     border-radius: 100%;
     position: relative;
     top :250px;
-    right: 40px;
+    right: 15px;
     border: 2px solid #000000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     overflow: hidden;
     cursor: pointer;
-
+}
 #img4{
     width: 7%;
     height: 80px;
     border-radius: 100%;
     position: relative;
     top :250px;
-    right: 40px;
+    right: -10px;
     border: 2px solid #000000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     overflow: hidden;
     cursor: pointer;
     
 }
-#img1{
+
+#Hthree1{
     font-family: 'Courier New', Courier, monospace;
     position: relative;
-    top:510px;
-    right:200px;
-    color:#000000
-
-}
+    top:425px;
+    right:210px}
 
    
+
+
+
+#h12{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:407px;
+    right:90px
+
+}
+#h13{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:388px;
+    right:-178px
+   
+}
+#h14{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 365px;
+    right:-40px;
+}
+#mim {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    position: relative;
+    top:-80px;
+    right: 35px
+}
+
+#logo-container {
+    position: fixed;
+    top: 0;
+    left: -50px;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10%;
+    width: 10px;
+}
+
+
+
+#Logo {
+    max-width: 350px; 
+    height: auto;
+}
+
 
 .popup{
     color: #000000;
     width: 400px;
     border-radius:6px ;
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform:translate(-50%, -50%)scale(0.1) ;
+    top:-500px;
+    height: 100px;
+    right: 375px;
+    opacity: 0;
+    transform:translate(-50%, -50%)scale(1.25) ;
     text-align: center;
     padding: 0 30px 30px;
     color: #ffffff;
@@ -128,14 +179,27 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     border-radius: 70%;
     border: 2px solid #ad11a6;
-    visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
+   
 }
 
-.open-popup{
-    visibility: visible;
-    top:50%;
-    transform:translate(-50%, -50%)scale(1) 
+.popup .active{
+    color: #000000;
+    width: 400px;
+    border-radius:6px ;
+    position: absolute;
+    top:250px;
+    height: 100px;
+    right: 375px;
+    opacity: 1;
+    transform:translate(-50%, -50%)scale(1) ;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #ffffff;
+    background-color: #8d8d8d;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 70%;
+    border: 2px solid #ad11a6;
+   
 
 }
 
@@ -191,6 +255,7 @@
      pointer-events: none;
 }
 
+
 .input-box i{
     right: 15px ;
 }
@@ -200,38 +265,17 @@
 position:relative;
 bottom: 0x;
 }
-=======
-    right:200px
 
 
+.close-btn{
+    color: #000000;
+    position:relative;
+    position: fixed;
+    top: 0;
+    left:357px;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10%;
+    width: 10px;
+    cursor: pointer;
 }
-#h12{
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    top:470px;
-    right:90px
-
-}
-#h13{
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    top:430px;
-    right:-130px
-   
-}
-#h14{
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    top:393px;
-    right:-10px;
-}
-#mim{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    position: relative;
-    top:-60px;
-    right: 40px;
-    }
-
