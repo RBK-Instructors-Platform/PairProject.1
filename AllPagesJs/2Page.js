@@ -1,8 +1,6 @@
-
-
 $("#img1").on('click', function() {
-    $('.popup').addClass('open-popup');
+    $(".popup").addClass("active");
 });
-function openPopup() {
-    $('.popup').removeClass('open-popup')
-}
+$(".close-btn").on('click', function() {
+    $(".popup").removeclass("active");
+});
