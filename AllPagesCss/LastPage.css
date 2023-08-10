@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: #ffffff ;
+}
+nav ul{
+    margin:0 ;
+    padding: 0;
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+}
+nav ul li {
+    list-style: none;
+   
+}
+nav ul li a{
+    display: block;
+    font-family: montserrat;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    padding: 25px 0 25px 25px;
+    top:150px;
+    box-shadow: 6px 6px 29px -4px black;
+
+}
+nav ul li a:before{
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 40px 0 0 40px;
+    z-index: -1;
+    transition: all 300ms ease-in-out;
+    
+}
+
+nav ul li a:hover {
+    color: #92218c;
+   
+}
+nav ul li a:hover:before{
+    width: 95%;
+    
+}
+
+#Logo {
+    max-width: 350px; 
+    height: auto;
+    object-fit: cover;
+    transition: .2s linear;
+    cursor: pointer;
+
+}
+#logo-container {
+    position: fixed;
+    top: 0;
+    left: 1190px;
+    padding: 1px;
+    background-color: transparent;
+    z-index: 10%;
+    width: 10px;
+}
+
+
+.haykel{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.haykel{
+    width: 6%;
+    height: 60px;
+    border-radius: 100%;
+    margin: 10px;
+    position: relative;
+    top :250px;
+    right: -300px;
+    border: 2px solid #000000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 6px 6px 29px -4px black;
+    background-color: #fff;
+    
+}
+
+#Haykel{
+    color: #fff;
+}
