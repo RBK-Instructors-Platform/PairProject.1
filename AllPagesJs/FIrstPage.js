@@ -10,5 +10,15 @@ $("#btn0").on({
 });
 
 $("#btn0").on('click',function(){
-    window.location.href='../AllPagesHtml/2Page.html'
+    window.location.href='../AllPagesHtml/2page.html'
 })
+
+$(document).ready(function() {
+    $('#btn0').hover(function() {
+        $(this).css('transform', 'scale(0.99)');
+    }, function() {
+        $(this).css('transform', 'scale(1.1)');
+    });
+});
+
+
