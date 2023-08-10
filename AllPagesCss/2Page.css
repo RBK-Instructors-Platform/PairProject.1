@@ -60,14 +60,11 @@
 
 
 
-
-
-
-
 #img1{
     width: 7%;
     height: 80px;
     border-radius: 100%;
+    margin: 10px;
     position: relative;
     top :250px;
     right: 50px;

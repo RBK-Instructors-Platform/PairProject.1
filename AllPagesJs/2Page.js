@@ -55,11 +55,8 @@ $(".button").on("click",function(){
            
                 alert("Wrong password")}
             
-                
-            
-
-            
    })
+   
 
 
    
