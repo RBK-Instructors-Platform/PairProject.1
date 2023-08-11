@@ -5,26 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="">
+
+
     <title>Document</title>
 </head>
 <body>
     <div id="logo-container">
         <img id="Logo" src="../AllPics/LogoForStartPage.png" alt="Logo">
-        <img id="logout" src="../AllPics/—Pngtree—logout vector icon_4236557.png">
-        
-        
+        <img id="logout" src="../AllPics/—Pngtree—logout vector icon_4236557.png">      
     </div>
-    
-    
+    <div class="wrapper" >
+        <span class="minus">-</span>
+        <span class="num" >01</span>
+        <span class="plus">+</span>
+    </div>
+    <h class="num" id ="numred">0</h>
+    <img class="red" src="../AllPics/15-154350_red-dot-icon-png-bowling-ball-transparent-background.png">
+    <h class="num"  id="numblue" >0</h>
+    <img class="blue"src="../AllPics/images.jpg">
+    <h classe="absent" id="ab">0</h>
+    <img class="abs" src="../AllPics/illustration-d-un-signe-absent-2cdjw06.jpg">
+    <h class="late" id="la">0</h>
+    <img class="lat" src="../AllPics/late-rubber-stamp-vector-12428341.jpg">
+ 
+
     <nav>
         <ul>
             
-            <p id="Haykel">dr.haykel</p>
+            <h2 id="Haykel">RBK-Company</h2>
             <li><a href="#" class="students">students </a></li>
             <li><a href="#" class="Pins">Pins</a></li>
             <li><a href="#" class="r&a">Absent & Late </a></li>
             <li><a href="#" class="rate">Rate</a></li>
-            <p id ="AddStudent">Add student + </p>
+            <h3 id ="AddStudent">Add Student + </h3>
         </ul>
     </nav>
     <div class="wrapper">
@@ -39,14 +53,15 @@
             <div class="popup-content">
                 <img class="close" src="../AllPics/568140.png">
             
+                <h3>Add student</h3>
             
             <h3 class="Hthree1" type="text"></h3>
-            <h class="FirstName">FirstName :</h>
+            <h class="FirstName">First Name :</h>
             <input type="text" placeholder="FirstName " id="FirstName">
-            <h class="LastName">LastName :</h>
+            <h class="LastName">Last Name :</h>
             <input type="text" placeholder="LastName " id="LastName">
             <h class="DateOfBirth">DateOfBirth :</h>
-            <input type="date" placeholder="Date of birth " id="DateOfBirth">
+            <input type="date" placeholder="Dateofbirth " id="DateOfBirth">
             <h class="Email">Email :</h>
             <input type="email" placeholder="Email " id="Email">
             <p id="p"></p>
@@ -55,11 +70,12 @@
             </div>
         </div>
         <table id="display"> 
+            
             <tr>
-                <th>FirstName</th>
-                <th>LastName</th>
-                <th>DateOfBirth</th>
-                <th>Email</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Date Of Birth</th>
+                <th>Email Adress</th>
             </tr>
         </table>
                 

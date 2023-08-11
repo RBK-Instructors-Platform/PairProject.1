@@ -139,9 +139,10 @@ nav ul li a:hover:before{
 .close{
     max-width: 20px;
     position: relative;
-    left:300px;
+    left:270px;
     bottom: 85px;
     cursor: pointer;
+    top: -5px;
 }
 
 #button{
@@ -178,15 +179,18 @@ table{
     background-color: darkgray;
 }
 
-table, th ,tr{
+table, th ,tr, td{
     border: 2px solid black;
     padding: 10px;
+    
+    
 }
 
 th {
     font-size: 15px;
     font-weight: 700;
     font-family: Arial;
+    
 }
 
 #logout{
@@ -195,4 +199,185 @@ th {
     left:-935px;
     bottom: 65px;
     cursor: pointer;
+}
+#Haykel{
+    position: relative;
+    top:    30px;
+    right: -50px;
+}
+
+
+#DateOfBirth{
+    position: relative;
+    top:100px;
+    right: 50px;
+}
+
+.FirstName{
+    position: relative;
+    right:10px;
+    top:50px
+}
+#FirstName{
+    position: relative;
+    top:50px;
+    right: 10px;
+
+}
+
+#Email{
+    position: relative;
+    top:100px;
+    left:50px
+}
+.Email{
+    position: relative;
+    top:100px;
+    left:50px
+}
+
+.LastName{
+    position: relative;
+    top:50px;
+}
+
+#LastName{
+    position: relative;
+    top:50px
+}
+
+.rating{
+    position: absolute;
+    left:1280px;
+    top:175px;
+    display: flex;
+}
+
+.rating input{
+    /*display: none;*/
+
+
+}
+.rating label {
+    display: block;
+    cursor: pointer;
+    width:15px;
+     background: #ffffff;
+}
+
+.rating label::before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    color:rgb(17, 17, 17)
+}
+
+.rating label:after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    color: rgb(17, 106, 223);
+    top:0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .5) ;
+}
+
+.rating label:hover:after,
+.rating input:checked ~ label:after{
+    opacity: 1;
+}
+
+
+.red{
+    max-width: 25px;
+    position: relative;
+    left:1350px;
+    bottom: 85px;
+    cursor: pointer;
+    top: 208px;
+    display: none
+}
+
+.blue{
+    max-width: 20px;
+    position: relative;
+    left:1280px;
+    bottom: 85px;
+    cursor: pointer;
+    top: 170px;
+    display: none
+
+}
+
+
+#numred{
+    max-width: 25px;
+    position: relative;
+    left:1384px;
+    bottom: 85px;
+    top: 228px;
+    display: none
+}
+
+
+#numblue{
+    max-width: 20px;
+    position: relative;
+    left:1310px;
+    bottom: 85px;
+    cursor: pointer;
+    top: 190px;
+    display: none    
+}
+
+
+
+.abs{
+    max-width: 25px;
+    position: relative;
+    left:1350px;
+    bottom: 85px;
+    cursor: pointer;
+    top: 180px;
+    display: none;
+    
+}
+
+.lat{
+    max-width: 25px;
+    position: relative;
+    left:1230px;
+    bottom: 85px;
+    cursor: pointer;
+    top: 180px;
+    display: none;
+    
+}
+
+
+#ab {
+    max-width: 20px;
+    position: relative;
+    left:1400px;
+    bottom: 85px;
+    cursor: pointer;
+    top: 170px;
+     display: none;
+}
+
+
+.late {
+    max-width: 25px;
+    position: relative;
+    left:1280px;
+    bottom: 85px;
+    top: 170px;
+    cursor: pointer;
+    display: none;
+    
 }
