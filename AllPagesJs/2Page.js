@@ -26,7 +26,7 @@ $(".close").click(function() {
 
 
 $(document).ready(function() {
-    $('#hide').hover(function() {
+    $('.close').hover(function() {
         $(this).css('transform', 'scale(1.1)');
     }, function() {
         $(this).css('transform', 'scale(1)');
@@ -118,6 +118,9 @@ $("#img4 ").click(function() {
 });
 
  
+
+
+
 
     
 
